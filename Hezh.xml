@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Licensed to: Hezhinx, Licensed for: www.Hezhinx.com -->
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale.language' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <b:attr name='xmlns' value=''/>
+  <b:attr name='xmlns:b' value=''/>
+  <b:attr name='xmlns:expr' value=''/>
+  <b:attr name='xmlns:data' value=''/>
+
+  <!--[
+
+    Name      : Plus ui movie
+    Version   : 1.0.0 &#8594; SUPER SECURE v3 (AdSense Ready | Cloudinary Lightbox | Full Security)
+    Date      : 25 may 2024
+    Type      : Premium
+    Designer  : Dhanjee rider
+    License   : Hezhinx (www.Hezhinx.com)
+    CDN Base  : https://cdn.jsdelivr.net/gh/hcrhezh/Unknown@main
+    CDN New   : https://cdn.jsdelivr.net/gh/hcrhezh/Hxowener@main
+
+    ============================================================================
+    SUPER SECURE v3 - FULL ENHANCEMENTS:
+    &#9989; IMAGE PROTECTION: Right-click, Drag, Mobile Long-press, F12, Ctrl+U/S blocked
+    &#9989; CLOUDINARY LIGHTBOX: Click image bubble &#8594; loads YOUR Cloudinary full-res image
+    &#9989; ADSENSE READY: All ad zones activated (Replace ca-pub-XXXXXXXXXXXXXXXXX)
+    &#9989; ADSTERRA REMOVED: Add via Blogger Widget when ready
+    &#9989; SPEED: Preconnect + DNS-Prefetch + LCP Preload + Cloudinary preconnect
+    &#9989; SECURITY: Referrer Policy + SameSite Cookie + polyfill.io replaced
+    &#9989; HIDDEN LINKS REMOVED: DK technozone spam links cleaned
+    &#9989; FIREBASE TRACKING CLEARED
+    ============================================================================
+    HEZHINX CUSTOMIZATIONS:
+    &#9989; CDN URLs Updated to hcrhezh repositories
+    &#9989; License Header Added (Hezhinx)
+    &#9989; Theme Optimized for Hezhinx.com
+    ============================================================================
+    HOW TO USE:
+    1. Replace ALL: ca-pub-XXXXXXXXXXXXXXXXX with your actual AdSense Publisher ID
+    2. Create ads.txt in Blogger: Settings > Search Preferences > Custom robots.txt
+   
+    ============================================================================
+
+]-->
+  
+  <!--[ <head> Open ]-->
+
+    &lt;head class=&#39;notranslate&#39;&gt;
+
+  
+  <meta content='dc9def97c51632d60e37bbefdd989a9b' name='p:domain_verify'/>
+  <meta content='sLA1tR7XHWw8idUUxDSzx00rg0pYic3OKtdOPkF5n1c' name='google-site-verification'/>
+  
+  <meta content='upgrade-insecure-requests' http-equiv='Content-Security-Policy'/>
+<!-- Google Analytics -->
+<!-- Google tag (gtag.js)--> 
+  <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-12NSQP81HK'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+  gtag(&#39;config&#39;, &#39;G-12NSQP81HK&#39;);
+</script>
+
+<script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2868025446556785'/>
+<meta content='ca-pub-2868025446556785' name='google-adsense-account'/>
+
+  <b:if cond='data:view.isMultipleItems'>
+    <b:if cond='data:view.isHomepage'>
+      <!--[ Homepage title ]-->
+      <title><data:blog.title.escaped/></title>
+      <b:elseif cond='data:view.search.query'/>
+      <!--[ Search title ]-->
+      <title><data:messages.search/>: <data:view.search.query/></title>
+      <b:elseif cond='data:view.search.label'/>
+      <!--[ Label title ]-->
+      <title><data:blog.pageName.escaped/> - <data:blog.title.escaped/></title>
+      <b:elseif cond='data:view.isArchive'/>
+      <!--[ Archive title ]-->
+      <title>Blog archive in: <data:blog.pageName.escaped/></title>
+      <b:else/>
+      <title>Blog: <data:blog.title.escaped/></title>
+    </b:if>
+    <b:elseif cond='data:view.isError'/>
+    <!--[ Error title ]-->
+    <title>Error 404: Not Found</title>
+    <b:else/>
+    <!--[ SingleItem title ]-->
+    <title><data:blog.pageName.escaped/> - <data:blog.title.escaped/></title>
+  </b:if>
+
+  <!--[ Meta for browser ]-->
+  <meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  <meta content='max-image-preview:large' name='robots'/>
+
+  <!--[ Security: Referrer Policy ]-->
+  <meta content='strict-origin-when-cross-origin' name='referrer'/>
+
+  <!--[ Speed: LCP Optimization ]-->
+  <b:if cond='data:view.isSingleItem'>
+    <b:if cond='data:blog.postImageUrl'>
+      <link as='image' expr:href='data:blog.postImageUrl' rel='preload'/>
+    </b:if>
+  </b:if>
+  <!--[ Speed: DNS Prefetch + Preconnect - SUPER VERSION ]-->
+  <link href='https://fonts.googleapis.com' rel='preconnect'/>
+  <link crossorigin='anonymous' href='https://fonts.gstatic.com' rel='preconnect'/>
+  <link href='https://pagead2.googlesyndication.com' rel='preconnect'/>
+  <link href='https://www.google-analytics.com' rel='dns-prefetch'/>
+  <link href='https://cdn.jsdelivr.net' rel='dns-prefetch'/>
+  <link href='https://www.googletagmanager.com' rel='dns-prefetch'/>
+  <link href='https://adservice.google.com' rel='dns-prefetch'/>
+  <link href='https://res.cloudinary.com' rel='preconnect'/>
+  <link href='https://res.cloudinary.com' rel='dns-prefetch'/>
+
+  <!--[ Link Canonical ]-->
+  <link expr:href='data:blog.url.canonical' rel='canonical'/>
+
+  <b:if cond='!data:view.isError'>
+    <!--[ Browser data, description and keyword ]-->
+    <b:if cond='data:blog.metaDescription'>
+      <meta expr:content='data:blog.metaDescription.escaped' name='description'/>
+      <b:elseif cond='data:view.isSingleItem'/>
+      <meta expr:content='data:post.snippet.escaped snippet { length: 147, links: false, linebreaks: false, ellipsis: false }' name='description'/>
+      <b:else/>
+      <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' name='description'/>
+    </b:if>
+    <meta expr:content='data:blog.title.escaped + &quot;, &quot; + data:blog.pageName.escaped + &quot;, Keyword_1, Keyword_2, Keyword_3 &quot;' name='keywords'/>
+    <b:tag cond='data:view.isPost' expr:href='resizeImage(data:blog.postImageUrl, 0)' name='link' rel='image_src'/>
+  
+    <!--[ Generator and rrs ]-->
+    <meta content='blogger' name='generator'/>
+    <link expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; Â» Atom&quot;' rel='alternate' type='application/atom+xml'/>
+    <link expr:href='data:blog.homepageUrl.canonical + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; Â» Feed&quot;' rel='alternate' type='application/rss+xml'/>
+    <link expr:href='data:blog.homepageUrl.canonical + &quot;feeds/comments/default?alt=rss&quot;' expr:title='data:blog.title + &quot; Â» Comments Feed&quot;' rel='alternate' type='application/rss+xml'/>
+  
+    <!--[ Theme Color ]-->
+    <meta expr:content='data:skin.vars.themeColor' name='theme-color'/>
+    <meta expr:content='data:skin.vars.themeColor' name='msapplication-navbutton-color'/>
+    <meta expr:content='data:skin.vars.themeColor' name='apple-mobile-web-app-status-bar-style'/>
+    <meta expr:content='yes' name='apple-mobile-web-app-capable'/>
+  
+    <!--[ Favicon ]-->
+    <link expr:href='data:blog.blogspotFaviconUrl' rel='apple-touch-icon' sizes='120x120'/>
+    <link expr:href='data:blog.blogspotFaviconUrl' rel='apple-touch-icon' sizes='152x152'/>
+    <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
+    <link expr:href='data:blog.blogspotFaviconUrl' rel='shortcut icon' type='image/x-icon'/>
+    
+    <!--[ Open graph and Twitter Card ]-->
+    <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title.escaped' property='og:title'/>
+    <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+    <meta expr:content='data:blog.title.escaped' property='og:site_name'/>
+    <b:if cond='data:view.isMultipleItems'>
+      <meta content='website' property='og:type'/>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription.escaped' property='og:description'/>         
+        <b:else/>
+        <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' property='og:description'/>
+      </b:if>
+      <b:else/>
+      <meta content='article' property='og:type'/>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription.escaped' property='og:description'/>            
+        <b:else/>
+        <meta expr:content='data:post.snippet.escaped snippet { length: 147, links: false, linebreaks: false, ellipsis: false }' property='og:description'/>
+      </b:if>
+    </b:if>
+    <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title.escaped' property='og:image:alt'/>
+    <b:if cond='data:blog.postImageUrl'>
+      <meta expr:content='resizeImage(data:blog.postImageUrl, 0)' property='og:image'/>
+      <b:else/>
+      <meta content='Add_your_image_url_here' property='og:image'/>
+    </b:if>
+    <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title.escaped' name='twitter:title'/>
+    <meta expr:content='data:blog.canonicalUrl' name='twitter:url'/>
+    <b:if cond='data:view.isMultipleItems'>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription.escaped' name='twitter:description'/>         
+        <b:else/>
+        <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' name='twitter:description'/>
+      </b:if>
+      <b:else/>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription.escaped' name='twitter:description'/>            
+        <b:else/>
+        <meta expr:content='data:post.snippet.escaped snippet { length: 147, links: false, linebreaks: false, ellipsis: false }' name='twitter:description'/>
+      </b:if>
+    </b:if>
+    <meta content='summary_large_image' name='twitter:card'/>
+    <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title.escaped' name='twitter:image:alt'/>
+    <b:if cond='data:blog.postImageUrl'>
+      <meta expr:content='resizeImage(data:blog.postImageUrl, 0)' name='twitter:image:src'/>
+      <b:else/>
+      <meta content='Add_your_image_url_here' name='twitter:image:src'/>
+    </b:if>
+    
+  </b:if>
+  
+  <b:if cond='data:view.isLayoutMode'>
+    <!--[ CSS Layout ]-->
+    <b:template-skin><![CDATA[ body#layout::before{content:'Plus ui movie v1.0.0 - Hezhinx Edition';position:absolute;top:15px;right:15px;font-size:.8rem;font-family:Roboto, sans-serif;color:rgba(0,0,0,0.52)} body#layout{width:1000px;margin:0 !important;padding:60px 0 0 !important;border:0 !important;text-align:left !important;position:relative} body#layout div.layout-widget-description{font-size:12px !important;line-height:1.6em} body#layout div.layout-title{font-size:15px !important} body#layout div.section{border-radius:2px} body#layout .section h4{font-size:15px !important;margin-left:0!important} body#layout .add_widget a{font-size:13px !important} body#layout .Blog .widget-content{height:auto!important} body#layout #anchor-ad, body#layout #notif-widget .widget-content, body#layout #side-sticky, body#layout #HTML91 .widget-content, body#layout #HTML92 .widget-content, body#layout #HTML93 .widget-content, body#layout #HTML01 .widget-content, body#layout #HTML02 .widget-content, body#layout #HTML94 .widget-content{background:#f0f8ff !important} body#layout .mainIn{padding-bottom:30px} body#layout .headIn, body#layout .blogM, body#layout .fotIn{display:flex} body#layout .headL{width:30%} body#layout .headR, body#layout .headM{width:35%} body#layout .mainbar{width:55%} body#layout .sidebar{width:45%} body#layout header, body#layout .mainIn, body#layout footer, body#layout .erroP{border-top:1px solid #e5e5e5;padding:30px 0 30px;position:relative} body#layout header::before, body#layout .mainIn::before, body#layout footer::before, body#layout .erroP::before{content:'Header';position:absolute;top:-14px;left:20px;padding:5px 20px;border:1px solid #e5e5e5;border-radius:20px;font-size:.8rem;font-family:Roboto,sans-serif;color:rgba(0,0,0,0.52);background:#f1f1f1} body#layout #notif-widget{margin-bottom:30px!important} body#layout #notif-widget div#HTML0{margin-top:0 !important} body#layout #notif-widget #LinkList001{margin-bottom:8px} body#layout .mainIn, body#layout .erroP{margin-top:40px;padding-bottom:0} body#layout .mainIn::before{content:'Main Content'} body#layout footer::before{content:'Footer';top:15px} body#layout footer{padding:50px 0 30px} body#layout .erroP::before{content:'Custom Error Page'} body#layout header{padding:50px 0 30px} body#layout header::before{top:15px} ]]></b:template-skin>
+  </b:if>
+  <!--[ CSS stylesheet ]-->
+  &lt;style&gt;&lt;!-- /* <b:skin version='1.3.0'><![CDATA[
+/*
+<Group description="Theme Color">
+<Variable name="themeColor" description="Light Mode Address bar color" type="color" default="#06f" value="#0066ff"/>
+<Variable name="themeDark" description="Dark Mode Address bar color" type="color" default="#202020" value="#202020"/>
+</Group>
+
+<Group description="Basic colors and Background">
+<Variable name="head.color" description="Heading colors" type="color" default="#262d3d" value="#08102b"/>
+<Variable name="body.color" description="Body colors" type="color" default="#48525c" value="#08102b"/>
+<Variable name="body.colorAlt" description="Alternative body colors" type="color" default="#767676" value="#989b9f"/>
+<Variable name="body.bgColor" description="Main page bakground color" type="color" default="#fffdfc" value="#ffffff"/>
+<Variable name="link.color" description="Link colors" type="color" default="#204ecf" value="#0066ff"/>
+<Variable name="link.bgColor" description="Button link colors" type="color" default="#204ecf" value="#0066ff"/>
+</Group>
+
+<Group description="Icon colors">
+<Variable name="icon.color" description="Icon colors" type="color" default="#48525c" value="#000000"/>
+<Variable name="icon.colorAlt" description="Alternative icon colors" type="color" default="#767676" value="#FFFFFF"/>
+<Variable name="icon.colorSec" description="Secondary icon colors" type="color" default="#767676" value="#FFFFFF"/>
+</Group>
+
+<Group description="Notification">
+<Variable name="notif.height" description="Notification max height" type="length" max="60px" default="45px" value="60px"/>
+<Variable name="notif.bg" description="Notification background color" type="color" default="#e1f5fe" value="#e5f5ff"/>
+<Variable name="notif.color" description="Notification text color" type="color" default="#08102b" value="#1e68d9"/>
+</Group>
+
+<Group description="Header colors, background and height">
+<Variable name="header.height" description="Header height" type="length" max="80px" default="60px" value="72px"/>
+<Variable name="header.heightM" description="Header height(mobile)" type="length" max="80px" default="60px" value="60px"/>
+<Variable name="header.titleSize" description="Header title font size" type="length" max="20px" default="16px" value="16px"/>
+<Variable name="header.text" description="Header text colors" type="color" default="#48525c" value="#343435"/>
+<Variable name="header.icon" description="Header icon colors" type="color" default="#262d3d" value="#08102b"/>
+<Variable name="header.bgColor" description="Header background color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="header.border" description="Header border" type="length" max="1px" default="0px" value="1px"/>
+</Group>
+
+<Group description="Navbar colors">
+<Variable name="nav.width" description="Navbar max width" type="length" max="260px" default="230px" value="230px"/>
+<Variable name="nav.border" description="Navbar border" type="length" max="1px" default="0px" value="1px"/>
+<Variable name="nav.text" description="Navbar text colors" type="color" default="#48525c" value="#08102b"/>
+<Variable name="nav.icon" description="Navbar icon color" type="color" default="#48525c" value="#08102b"/>
+<Variable name="nav.bg" description="Navbar background color" type="color" default="#fffdfc" value="#fffdfc"/>
+</Group>
+
+<Group description="Searchbar colors">
+<Variable name="search.icon" description="Searchbar icon color" type="color" default="#48525c" value="#48525c"/>
+<Variable name="search.bg" description="Searchbar background color" type="color" default="#fffdfc" value="#fffdfc"/>
+</Group>
+
+<Group description="Content background">
+<Variable name="content.bg" description="Content background color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="content.border" description="Content border color" type="color" default="#eceff1" value="#e6e6e6"/>
+</Group>
+
+<Group description="Content max width">
+<Variable name="content.maxWidth" description="Max width of main content" type="length" max="1440px" default="1024px" value="1270px"/>
+<Variable name="sidebar.maxWidth" description="Max width of sidebar" type="length" max="360px" default="300px" value="300px"/>
+<Variable name="post.maxContent" description="Post max width" type="length" max="900px" default="720px" value="780px"/>
+<Variable name="page.maxContent" description="Static page max width" type="length" max="900px" default="780px" value="780px"/>
+</Group>
+
+<Group description="Post font size">
+<Variable name="post.titleSize" description="Post title font size" type="length" max="42px" default="28px" value="36px"/>
+<Variable name="post.fontSize" description="Post font size (Default)" type="length" max="18px" default="16px" value="16px"/>
+<Variable name="post.titleSizeMobile" description="Post title size (onMobile)" type="length" max="38px" default="22px" value="28px"/>
+<Variable name="post.fontSizeMobile" description="Post font size (onMobile)" type="length" max="18px" default="16px" value="15px"/>
+</Group>
+
+<Group description="Widget title font size">
+<Variable name="widget.titleSize" description="Widget title font size" type="length" max="18px" default="14px" value="15px"/>
+<Variable name="widget.titleAfter" description="Widget title border" type="length" max="40px" default="25px" value="25px"/>
+<Variable name="widget.titleAfterC" description="Widget title border color" type="color" default="#989b9f" value="#989b9f"/>
+</Group>
+
+<Group description="Mobile menu colors">
+<Variable name="mob.border" description="Mobile menu border" type="length" max="2px" default="0px" value="1px"/>
+<Variable name="mob.borderR" description="Mobile corder radius" type="length" max="60px" default="0px" value="12px"/>
+<Variable name="mob.text" description="Mobile text colors" type="color" default="#48525c" value="#08102b"/>
+<Variable name="mob.bg" description="Mobile background color" type="color" default="#ffffff" value="#ffffff"/>
+<Variable name="mob.hovBg" description="Mobile hover background color" type="color" default="#f6f6f6" value="#f1f1f0"/>
+</Group>
+
+<Group description="Footer colors">
+<Variable name="foot.border" description="Footer border" type="length" max="2px" default="0px" value="1px"/>
+<Variable name="foot.text" description="Footer text colors" type="color" default="#48525c" value="#08102b"/>
+<Variable name="foot.bg" description="Footer background color" type="color" default="#fffdfc" value="#fffdfc"/>
+</Group>
+
+<Group description="Dark mode colors and background">
+<Variable name="dark.text" description="Dark mode text color" type="color" default="#fffdfc" value="#FFFFFF"/>
+<Variable name="dark.textAlt" description="Alternative text colors" type="color" default="#989b9f" value="#FFFFFF"/>
+<Variable name="dark.link" description="Dark mode link colors" type="color" default="#005af0" value="#ff0066"/>
+<Variable name="dark.bg" description="Dark mode background color" type="color" default="#202020" value="#202020"/>
+<Variable name="dark.bgAlt" description="Alternative background color" type="color" default="#2d2d30" value="#2d2d30"/>
+<Variable name="dark.bgSec" description="Secondary background color" type="color" default="#252526" value="#252526"/>
+</Group>
+
+<Group description="Border Radius">
+<Variable name="button.radius" description="Buttons Border Radius" type="length" max="50px" default="3px" value="50px"/>
+<Variable name="greet.radius" description="Greetings and Views Border Radius" type="length" max="25px" default="3px" value="10px"/>
+<Variable name="iconhover.radius" description="Icon Hover Border Radius" type="length" max="15px" default="15px" value="15px"/>
+<Variable name="thumbelem.radius" description="Thumbnail Elements Border Radius" type="length" max="15px" default="8px" value="5px"/>
+<Variable name="moblsearch.radius" description="Blog Search Border Radius (Mobile)" type="length" max="20px" default="12px" value="20px"/>
+<Variable name="desksearch.radius" description="Blog Search Border Radius (Desktop)" type="length" max="20px" default="8px" value="20px"/>
+<Variable name="moblheader.radius" description="Header Style 2 Border Radius (Mobile)" type="length" max="30px" default="8px" value="30px"/>
+</Group>
+*/
+
+/* CDN URLs - Hezhinx Edition */
+/* baseUrl = https://cdn.jsdelivr.net/gh/hcrhezh/Unknown@main */
+/* newUrl = https://cdn.jsdelivr.net/gh/hcrhezh/Hxowener@main */
+
+/* Variable color */ :root, :root .lgT:not(.drK), :root .theme0:not(.drK){/* Theme */ --themeC: #0066ff; /* Body */ --headC: #08102b; --bodyC: #08102b; --bodyCa: #989b9f; --bodyB: #ffffff; /* Link */ --linkC: #0066ff; --linkB: #0066ff; /* Icon */ --iconC: #000000; --iconCa: #FFFFFF; --iconCs: #FFFFFF; /* Header */ --headerC: #343435; --headerT: 16px; --headerW: 400; --headerB: #ffffff; --headerL: 1px; --headerI: #08102b; --headerH: 72px; --headerHi: -72px; --headerHm: 60px; --headerR: 30px; /* Notif */ --notifH: 60px; --notifU: #e5f5ff; --notifC: #1e68d9; /* Content */ --contentB: #ffffff; --contentL: #e6e6e6; --contentW: 1270px; --sideW: 300px; --transB: rgba(0,0,0,.05); /* Page */ --pageW: 780px; --postT: 36px; --postF: 16px; --postTm: 28px; --postFm: 15px; /* Widget */ --widgetT: 15px; --widgetTw: 400; --widgetTa: 25px; --widgetTac: #989b9f; /* Nav */ --navW: 230px; --navT: #08102b; --navI: #08102b; --navB: #fffdfc; --navL: 1px; /* Search */ --srchI: #48525c; --srchB: #fffdfc; /* Mob Men */ --mobT: #08102b; --mobHv: #f1f1f0; --mobB: #ffffff; --mobL: 1px; --mobBr: 12px; /* Footer */ --fotT: #08102b; --fotB: #ffffff; --fotL: 1px; /* Font family */ --fontH: Google Sans Text,Arial,Helvetica,sans-serif; --fontB: Google Sans Text,Arial,Helvetica,sans-serif; --fontBa: Google Sans Text,Arial,Helvetica,sans-serif; --fontC: Google Sans Mono,monospace; /* Trans */ --trans-1: all .1s ease; --trans-2: all .2s ease; --trans-3: all .3s ease; --trans-4: all .4s ease; /* Border Radius */ --buttonR: 50px; --greetR: 10px; --iconHr: 15px; --thumbEr: 5px; --srchMr: 20px; --srchDr : 20px; --borderC: #e6e6e6;}
+
+/* Dark Mode */ :root .drK{/* Theme */ --themeC: #202020; --linkC: #ff0066; --borderC: #ccc; --topB: #1e1e1e; --fotB: #222222; --postThmb: #2d2d30;}
+
+.pLbls a{ background: linear-gradient(135deg,#ff1a75 0%,#7d2ae8 40%,#00c4cc 95%);; padding:5px 9px; color:#fff !important; border-radius: 1px 100px / 120px; margin-right:4px; font-weight:900; }
+.drp{ font-weight:bold;}
+footer a{ font-weight:bold;}
+.mnMn a{font-weight:bold}
+#mobile-menu{ transition: .4s;}
+.secIn{border:none!important;}
+.navS a{font-weight:bold}
+.navS{margin:-10px -10px;}
+svg{ stroke-width:1.5!important; }
+]]></b:skin>
